@@ -1,4 +1,4 @@
-# Reporting for WinForms - How to Group Report Data by Days of the Week
+# Reporting for WinForms - How to Group Report Data by the Days of Week
 
 The report in this example groups orders by day of the week taken from the order date. Orders are grouped by a calculated field that contains the day of the week for the Order data record.
 
@@ -12,7 +12,7 @@ The report in this example groups orders by day of the week taken from the order
 
 ## Documentation 
 
-- [Group Data by Days of the Week](https://docs.devexpress.com/XtraReports/5751)
+- [Group Data by Days of the Week](http://docs.devexpress.devx/XtraReports/5751)
 
 
 
