@@ -3,20 +3,18 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E1290)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
+# Reporting for WinForms - How to Group Report Data by Days of the Week
 
-* [Form1.cs](./CS/GroupByTimeSpan/Form1.cs)
-<!-- default file list end -->
-# How to group (sort) a report by days of week
+The report in this example groups orders by day of the week taken from the order date. Orders are grouped by a calculated field that contains the day of the week for the Order data record.
 
-
-<p>This is an example of applying a <strong>grouping by a time span</strong> to a report at design time.</p><p>In particular, it shows how to group data by <strong>days of the week</strong>, and the same idea works for a <strong>grouping by a month</strong>. In short, this requires creating a  <a href="http://devexpress.com/Help/Content.aspx?help=XtraReports&document=CustomDocument4813.htm">calculated field</a>, which, with the help of built-in date-time functions, returns a zero-based index of the day of the week. Then, a band's grouping criteria is set to this calculated field. Finally, the required data field is represented in the Group Header band, and the required formatting is applied to it.</p><p>See also: <br />
-- <a href="https://www.devexpress.com/Support/Center/p/E1650">How to group data</a>;<br />
-- <a href="https://www.devexpress.com/Support/Center/p/E1282">How to count the number of groups in a report</a>;<br />
-- <a href="https://www.devexpress.com/Support/Center/p/E787">How to implement custom grouping (group by Year and Month)</a>;<br />
-- <a href="https://www.devexpress.com/Support/Center/p/E810">How to insert page numbers for groups</a>.</p>
-
-<br/>
+![Orders grouped by day of the week](Images/screenshot.png)
 
 
+
+## Files to Look At
+
+- [Form1.cs](CS/GroupByTimeSpan/Form1.cs) ([Form1.vb](VB/GroupByTimeSpan/Form1.vb))
+
+## Documentation 
+
+- [Group Data by Days of the Week](https://docs.devexpress.com/XtraReports/5751)
