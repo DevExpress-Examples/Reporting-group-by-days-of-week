@@ -17,7 +17,7 @@ The report in this example groups orders by day of the week taken from the order
 
 ## Documentation 
 
-- [Group Data by Days of the Week](http://docs.devexpress.devx/XtraReports/5751)
+- [Group Data by Days of the Week](http://docs.devexpress.сom/XtraReports/5751)
 
 
 
