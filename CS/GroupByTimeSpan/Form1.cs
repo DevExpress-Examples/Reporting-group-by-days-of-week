@@ -1,15 +1,18 @@
+#region usings
 using System;
 using System.Drawing;
 using System.Windows.Forms;
 using DevExpress.DataAccess.ConnectionParameters;
 using DevExpress.DataAccess.Sql;
 using DevExpress.XtraReports.UI;
+#endregion
 
 namespace GroupByTimeSpan {
     public partial class Form1: Form {
         public Form1() {
             InitializeComponent();
         }
+        #region createreport
         public XtraReport CreateDataGroupingReport() {
             // Create a report, and bind it to a data source.
             XtraReport report = new XtraReport();
@@ -68,6 +71,7 @@ namespace GroupByTimeSpan {
 
             return report;
         }
+        #endregion
         private void button1_Click(object sender, EventArgs e) {
             // Create a report grouped by days of week, 
             // and show its print preview.
